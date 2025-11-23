@@ -452,7 +452,7 @@ export default function PublicHome() {
         <div className="container">
           <div className="hero-content">
             <div className="hero-badge">
-              <span>🔬</span>
+              <img src="/ChatGPT Image Nov 23, 2025, 10_12_40 PM.png" alt="Jeevankosh" style={{width: '24px', height: '24px', objectFit: 'contain'}} />
               Government Certified Health Platform
             </div>
             

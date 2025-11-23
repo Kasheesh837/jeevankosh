@@ -9,7 +9,7 @@ export default function Home({ user }) {
               <div className="mb-4">
                 <div className="bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" 
                      style={{width: '80px', height: '80px'}}>
-                  <span className="fs-2">👋</span>
+                  <img src="/ChatGPT Image Nov 23, 2025, 10_12_40 PM.png" alt="Jeevankosh Logo" style={{width: '70px', height: '70px', objectFit: 'contain'}} />
                 </div>
                 <h1 className="display-6 fw-bold text-dark mb-2">Welcome, {user?.name}!</h1>
                 <p className="lead text-muted mb-4">

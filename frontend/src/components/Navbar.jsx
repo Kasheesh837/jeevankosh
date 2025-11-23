@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { Link, useNavigate, useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 export default function Navbar({ user, onLogout }) {
   const navigate = useNavigate();
@@ -342,7 +342,7 @@ export default function Navbar({ user, onLogout }) {
         <div className="nav-container">
           {/* Logo Section */}
           <Link className="brand-section" to="/dashboard" aria-label="Jeevankosh Home">
-            <div className="brand-logo">🏥</div>
+            <img src="/ChatGPT Image Nov 23, 2025, 10_12_40 PM.png" alt="Jeevankosh Logo" className="brand-logo" style={{width: '50px', height: '50px', objectFit: 'contain'}} />
             <div className="brand-text">
               <div className="brand-main">Jeevankosh</div>
               <div className="brand-sub">Health Assistant</div>

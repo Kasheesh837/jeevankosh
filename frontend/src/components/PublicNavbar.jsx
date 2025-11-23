@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 
 export default function PublicNavbar() {
   const navigate = useNavigate();
@@ -367,7 +367,7 @@ export default function PublicNavbar() {
             aria-label="Jeevankosh Home"
             onKeyPress={(e) => e.key === 'Enter' && navigate('/')}
           >
-            <div className="brand-logo">🏥</div>
+            <img src="/ChatGPT Image Nov 23, 2025, 10_12_40 PM.png" alt="Jeevankosh Logo" className="brand-logo" style={{width: '50px', height: '50px', objectFit: 'contain'}} />
             <div className="brand-text">
               <div className="brand-main">Jeevankosh</div>
               <div className="brand-sub">Government Health Portal</div>
